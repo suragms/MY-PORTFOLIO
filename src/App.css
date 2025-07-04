@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #181818 0%, #232526 100%);
+  color: #fff;
+  min-height: 100vh;
+  letter-spacing: 0.1px;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: transparent;
+}
+
+main {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23272f;
+}
+::-webkit-scrollbar-thumb {
+  background: #00bcd4;
+  border-radius: 4px;
+}
+
+/* Remove default React styles */
+.App-logo, .App-header, .App-link {
+  display: none !important;
+}
